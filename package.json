@@ -1,0 +1,18 @@
+{
+  "name": "fis3-preprocessor-px2rem",
+  "version": "1.0.0",
+  "description": "fis3-preprocessor-px2rem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrluobo",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Mrluobo/fis3-preprocessor-px2rem.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "px2rem": "^0.4.2"
+  }
+}
