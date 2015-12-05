@@ -1,6 +1,6 @@
 a fis3 plugin for px2rem
  # [fis3](https://github.com/fex-team/fis3)-preprocessor-px2rem [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
- Version: **1.0.1**
+Version: **1.0.0**
  
  This is a FIS3 plugin for [px2rem](https://github.com/songsiqi/px2rem).
  
