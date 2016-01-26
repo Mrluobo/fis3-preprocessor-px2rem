@@ -1,14 +1,14 @@
 a fis3 plugin for px2rem
- # [fis3](https://github.com/fex-team/fis3)-preprocessor-px2rem [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
-Version: **1.0.0**
+
+# [fis3](https://github.com/fex-team/fis3)-preprocessor-px2rem [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
  
  This is a FIS3 plugin for [px2rem](https://github.com/songsiqi/px2rem).
  
- ## Installation
+## Installation
  
  Run `npm install fis3-preprocessor-px2rem`
  
- ## Usage
+## Usage
  
  ```js
 fis.match('test.css', {
@@ -18,7 +18,7 @@ fis.match('test.css', {
 })
  ```
  
- ## setting
+## setting
  
  
  ```js
@@ -27,8 +27,8 @@ fis.match('test.css', {
  }
  ```
  
- # License
- MIT © 2015 Gergely Kovács (gg.kovacs@gmail.com)
+# License
+ MIT © 2015 mrluobo (602003869@qq.com)
  
  [npm-image]: https://badge.fury.io/js/fis3-preprocessor-px2rem.svg
  [npm-url]: https://www.npmjs.com/package/fis3-preprocessor-px2rem
