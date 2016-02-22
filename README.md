@@ -27,6 +27,46 @@ fis.match('test.css', {
  }
  ```
  
+
+## Example
+
+### Pre processing:
+
+One raw stylesheet: `test.css`
+
+```
+.selector {
+    width: 150px;
+    height: 64px; /*px*/
+    font-size: 28px; /*px*/
+    border: 1px solid #ddd; /*no*/
+}
+```
+
+### After processing:
+
+Rem version: `test.debug.css`
+
+```
+.selector {
+    width: 2rem;
+    border: 1px solid #ddd;
+}
+[data-dpr="1"] .selector {
+    height: 32px;
+    font-size: 14px;
+}
+[data-dpr="2"] .selector {
+    height: 64px;
+    font-size: 28px;
+}
+[data-dpr="3"] .selector {
+    height: 96px;
+    font-size: 42px;
+}
+```
+
+ 
 # License
  MIT © 2015 mrluobo (602003869@qq.com)
  
